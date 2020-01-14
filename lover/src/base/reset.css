@@ -1,0 +1,31 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration:none;
+    color: rgb(0, 0, 0);
+}
+
+ul,ol {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+}
+
+.video-js.vjs-fluid, .video-js.vjs-16-9, .video-js.vjs-4-3 {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+body { background-color: #3e3a3b; color: #dadada; font-size: 50px;}
+title{display: block;}
+
+input { color: #dadada; }
+input::placeholder { color: #c2bdbd; }
+h5{margin-top: 30px; margin-bottom: 30px;}
+

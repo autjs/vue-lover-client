@@ -1,0 +1,80 @@
+{
+  "name": "single_dog",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@eshengsky/vue-card-swipe": "^1.0.2",
+    "@ziki/es6-log": "^1.0.4",
+    "@ziki/uuid": "^1.0.1",
+    "amor-photo": "^1.2.0",
+    "axios": "^0.19.0",
+    "babel-plugin-import": "^1.12.2",
+    "best-city": "^1.0.1",
+    "cn.compose": "^1.0.5",
+    "cn.console": "^1.0.5",
+    "cn.v.swipe": "^1.0.7",
+    "core-js": "^3.3.2",
+    "cropperjs": "^1.5.6",
+    "element-ui": "^2.13.0",
+    "lib-flexible": "^0.3.2",
+    "postcss-pxtorem": "^4.0.1",
+    "px2rem-loader": "^0.1.9",
+    "qs": "^6.9.1",
+    "sass-loader": "^8.0.0",
+    "socket.io-client": "^2.3.0",
+    "stylus": "^0.54.7",
+    "stylus-loader": "^3.0.2",
+    "v-distpicker": "^1.2.2",
+    "vant": "^2.2.12",
+    "video.js": "^7.6.5",
+    "videojs-contrib-hls": "^5.15.0",
+    "vue": "^2.6.10",
+    "vue-cropper": "^0.4.9",
+    "vue-router": "^3.1.3",
+    "vue-socket.io-extended": "^4.0.1",
+    "vue-swipe": "^2.4.0",
+    "vue-video-player": "^5.0.2",
+    "vuex": "^3.1.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.0.0",
+    "@vue/cli-plugin-eslint": "^4.0.0",
+    "@vue/cli-service": "^4.0.0",
+    "babel-eslint": "^10.0.3",
+    "babel-plugin-import": "^1.12.2",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "postcss-px2rem-exclude": "0.0.6",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {
+      "no-console": "off"
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
